@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="CarouselPageBug.MainPage">
+
+    <ContentPage x:Name="Page1" >
+        <Grid VerticalOptions="FillAndExpand" BackgroundColor="LightBlue">
+            <Label Text="Page1" />
+            <Button Text="Next" BorderWidth="1" Clicked="OnNextClicked" VerticalOptions="Center" />
+        </Grid>
+    </ContentPage>
+    <ContentPage x:Name="Page2" >
+        <Grid VerticalOptions="FillAndExpand" BackgroundColor="LightGreen">
+            <Label Text="Page2" />
+            <Button Text="Next" BorderWidth="1" Clicked="OnNextClicked" VerticalOptions="Center" />
+        </Grid>
+    </ContentPage>
+    <ContentPage x:Name="Page3" >
+        <Grid VerticalOptions="FillAndExpand" BackgroundColor="LightCoral">
+            <Label Text="Page3" />
+            <Button Text="Next" BorderWidth="1" Clicked="OnNextClicked" VerticalOptions="Center" />
+        </Grid>
+    </ContentPage>
+</CarouselPage>
+
+    
